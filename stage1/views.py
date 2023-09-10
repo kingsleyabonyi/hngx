@@ -11,7 +11,7 @@ def student_info(request):
         track = request.query_params.get('track', 'backend')
 
         data = {
-            " slack_name": slack_name,
+            "slack_name": slack_name,
             "current_day": datetime.today().strftime("%A"),
             "utc_time": datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),           
             "track": track,
