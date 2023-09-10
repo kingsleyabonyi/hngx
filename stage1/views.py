@@ -15,7 +15,8 @@ def student_info(request):
             "current_day": datetime.today().strftime("%A"),
             "utc_time": datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),           
             "track": 'backend',
-            "github": 'sghssjs',
+            "github_file_url": 'https://github.com/kingsleyabonyi/hngx/blob/master/stage1/views.py',
+            "github_repo_url": 'https://github.com/kingsleyabonyi/hngx',
             "status": 200,
         
         }
